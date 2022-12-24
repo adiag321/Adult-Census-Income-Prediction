@@ -45,7 +45,7 @@ We have calculated the performance by calculating `Precision`, `Recall` , `True 
 
 ## RESULTS
 1. Gender Distribution based on Income
-![Screenshot](https://github.com/adiag321/Adult-Census-Income-Prediction/blob/main/Images/gender.png)
+![Screenshot](https://github.com/adiag321/Adult-Census-Income-Prediction/blob/5f90b9521f49bd0e50a09560577c37d172b218a1/Images/gender.png)
 
 2. Education Count 
 ![Screenshot](https://github.com/adiag321/Adult-Census-Income-Prediction/blob/main/Images/Education_Count.png)
