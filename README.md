@@ -61,7 +61,7 @@ Here is the tabular view of `Accuracy` and `Time taken` to run the model -
 
 
 | Model  | Accuracy | Time |
-| ------------- | ------------- |
+| ------------- | ------------- | ------------- | 
 | Logistic Reg - Oversampled  | 83.2% | 824.2s |
 | Logistic Reg - Undersampled  | 82.5% | 102.9s |
 | Logistic Reg - SMOTE | 83.7% | 848s | 
