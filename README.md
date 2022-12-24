@@ -47,7 +47,7 @@ We have calculated the `Precision`, `Recall` , `True positive/negative` for all 
 ![Screenshot](Images/gender.png)
 
 2. Education Count 
-<img src = "/Images/Education Count.png">
+![Screenshot](Images/Education_Count.png)
 
 3. Work-Class Distribution
 <img src ="/Images/Work-Class - Pie-chart.png">
