@@ -50,10 +50,10 @@ We have calculated the `Precision`, `Recall` , `True positive/negative` for all 
 ![Screenshot](Images/Education_Count.png)
 
 3. Work-Class Distribution
-<img src ="/Images/Work-Class - Pie-chart.png">
+<img src ="Images/Work-Class-Pie-chart.png">
 
 4. Age Vs Marital Status
-<img src = "/Images/Age Vs Marital Status.png">
+<img src = "Images/AgeVsMarital_Status.png">
 
 # Conclusion:
 * Only a few of the traits are closely associated to income projection, according to the correlation table. <br>
