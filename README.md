@@ -3,8 +3,9 @@
 This data was extracted from the 1994 Census bureau database by Ronny Kohavi and Barry Becker (Data Mining and Visualization, Silicon Graphics). A set of reasonably clean records was extracted using the following conditions: ((AAGE>16) && (AGI>100) && (AFNLWGT>1) && (HRSWK>0)). <br>
 The prediction task is to determine whether a person makes over $50K a year.
 
-# Data Defination
-The Adult's Income dataset is collected from kaggle using this <a href = "https://www.kaggle.com/uciml/adult-census-income"> Link </a> <br>
+## DATA DEFINATION
+
+The Adult's Income dataset is collected from kaggle using this <a href = "https://www.kaggle.com/uciml/adult-census-income"> https://www.kaggle.com/uciml/adult-census-income </a> <br>
 This dataset has 48842 rows × 15 columns. <br>
 
 1. age: continuous.
@@ -22,7 +23,7 @@ This dataset has 48842 rows × 15 columns. <br>
 13. hours-per-week: continuous.
 14. native-country: United-States, Cambodia, England, Puerto-Rico, Canada, Germany, Outlying-US(Guam-USVI-etc), India, Japan, Greece, South, China, Cuba, Iran, Honduras, Philippines, Italy, Poland, Jamaica, Vietnam, Mexico, Portugal, Ireland, France, Dominican-Republic, Laos, Ecuador, Taiwan, Haiti, Columbia, Hungary, Guatemala, Nicaragua, Scotland, Thailand, Yugoslavia, El-Salvador, Trinadad&Tobago, Peru, Hong, Holand-Netherlands.
 
-# Methods
+## METHODS
 In this project, we have employed the following steps:
 
 1. Data Collection
@@ -39,26 +40,26 @@ We have implemented the following models: <br>
 3. Naive Bayes
 
 
-# Performance Evaluation
+## PERFORMANCE EVALUATION
 We have calculated the performance by calculating `Precision`, `Recall` , `True positive/negative` for all the models and built a `Confusion Matrix` for the same.
 
-# Results
+## RESULTS
 1. Gender Distribution based on Income
-![Screenshot](Images/gender.png)
+![Screenshot](https://github.com/adiag321/Adult-Census-Income-Prediction/blob/main/Images/gender.png)
 
 2. Education Count 
-![Screenshot](Images/Education_Count.png)
+![Screenshot](https://github.com/adiag321/Adult-Census-Income-Prediction/blob/main/Images/Education_Count.png)
 
 3. Work-Class Distribution
-<img src ="Images/Work-Class-Pie-chart.png">
+![Screenshot](https://github.com/adiag321/Adult-Census-Income-Prediction/blob/main/Images/Work-Class-Pie-chart.png)
 
 4. Age Vs Marital Status
-<img src = "Images/AgeVsMarital_Status.png">
+![Screenshot](https://github.com/adiag321/Adult-Census-Income-Prediction/blob/main/Images/AgeVsMarital_Status.png)
 
-# Conclusion:
+
+## MODEL EVALUTATION
 
 Here is the tabular view of `Accuracy` and `Time taken` to run the model - 
-
 
 | Model  | Accuracy | Time |
 | ------------- | ------------- | ------------- | 
@@ -72,6 +73,7 @@ Here is the tabular view of `Accuracy` and `Time taken` to run the model -
 | Naive Bayes - Undersampled  | 76% | 3.69s |
 | Naive Bayes - SMOTE | 85% | 23.67s |
 
+## CONCLUSION
 
 * Only a few of the traits are closely associated to income projection, according to the correlation table. <br>
 * The choice of such columns has a big impact on the model's accuracy. Random Forest is also the best fit for this dataset. Males have a higher rate of incorrect predictions than females. <br>
