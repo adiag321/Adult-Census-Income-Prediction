@@ -40,7 +40,7 @@ We have implemented the following models: <br>
 
 
 # Performance Evaluation
-We have calculated the `Precision`, `Recall` , `True positive/negative` for all the models and built a `Confusion Matrix` for the same.
+We have calculated the performance by calculating `Precision`, `Recall` , `True positive/negative` for all the models and built a `Confusion Matrix` for the same.
 
 # Results
 1. Gender Distribution based on Income
@@ -56,6 +56,23 @@ We have calculated the `Precision`, `Recall` , `True positive/negative` for all 
 <img src = "Images/AgeVsMarital_Status.png">
 
 # Conclusion:
+
+Here is the tabular view of `Accuracy` and `Time taken` to run the model - 
+
+
+| Model  | Accuracy | Time |
+| ------------- | ------------- |
+| Logistic Reg - Oversampled  | 83.2% | 824.2s |
+| Logistic Reg - Undersampled  | 82.5% | 102.9s |
+| Logistic Reg - SMOTE | 83.7% | 848s | 
+| SVM - Oversampled  | 83% | 303.9s |
+| SVM - Undersampled  | 81% | 22.89s |
+| SVM - SMOTE | 84% | 300.4s |
+| Naive Bayes - Oversampled  | 76% | 23.41s |
+| Naive Bayes - Undersampled  | 76% | 3.69s |
+| Naive Bayes - SMOTE | 85% | 23.67s |
+
+
 * Only a few of the traits are closely associated to income projection, according to the correlation table. <br>
 * The choice of such columns has a big impact on the model's accuracy. Random Forest is also the best fit for this dataset. Males have a higher rate of incorrect predictions than females. <br>
 * The dataset does not have to be perfect or small all of the time. As a result, we must define a method, a method that can be applied to every dataset. <br>
