@@ -44,7 +44,7 @@ We have calculated the `Precision`, `Recall` , `True positive/negative` for all 
 
 # Results
 1. Gender Distribution based on Income
-<img src = "/Volumes/GoogleDrive/My Drive/Jupyter Notebook/Resume Projects/Adult Census Income Prediction/Images/gender.png">
+<img src = "/Images/gender.png">
 
 2. Education Count 
 <img src = "Images/Education Count.png">
