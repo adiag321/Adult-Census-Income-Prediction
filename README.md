@@ -44,16 +44,16 @@ We have calculated the `Precision`, `Recall` , `True positive/negative` for all 
 
 # Results
 1. Gender Distribution based on Income
-<img src = "/Images/gender.png">
+![Screenshot](/Images/gender.png)
 
 2. Education Count 
-<img src = "Images/Education Count.png">
+<img src = "/Images/Education Count.png">
 
 3. Work-Class Distribution
-<img src ="Images/Workclass.png">
+<img src ="/Images/Work-Class - Pie-chart.png">
 
 4. Age Vs Marital Status
-<img src = "Images/Age Vs Marital Status.png">
+<img src = "/Images/Age Vs Marital Status.png">
 
 # Conclusion:
 * Only a few of the traits are closely associated to income projection, according to the correlation table. <br>
