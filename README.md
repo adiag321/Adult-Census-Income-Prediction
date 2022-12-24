@@ -37,15 +37,14 @@ We have implemented the following models: <br>
 1. SVM
 2. Logistic Regression
 3. Naive Bayes
-4. Desicion Tree
-5. Random Forest
+
 
 # Performance Evaluation
 We have calculated the `Precision`, `Recall` , `True positive/negative` for all the models and built a `Confusion Matrix` for the same.
 
 # Results
 1. Gender Distribution based on Income
-<img src = "Images/gender.png">
+<img src = "/Volumes/GoogleDrive/My Drive/Jupyter Notebook/Resume Projects/Adult Census Income Prediction/Images/gender.png">
 
 2. Education Count 
 <img src = "Images/Education Count.png">
