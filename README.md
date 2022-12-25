@@ -5,7 +5,7 @@ The prediction task is to determine whether a person makes over $50K a year.
 
 ## DATA DEFINATION
 
-The Adult's Income dataset is collected from kaggle using this <a href = "https://www.kaggle.com/uciml/adult-census-income"> https://www.kaggle.com/uciml/adult-census-income </a> <br>
+The Adult's Income dataset is collected from kaggle using this <a href = "https://www.kaggle.com/uciml/adult-census-income"> https://www.kaggle.com/uciml/adult-census-income. </a> <br>
 This dataset has 48842 rows × 15 columns. <br>
 
 1. age: continuous.
@@ -39,26 +39,23 @@ We have implemented the following models: <br>
 2. Logistic Regression
 3. Naive Bayes
 
-
 ## PERFORMANCE EVALUATION
 We have calculated the performance by calculating `Precision`, `Recall` , `True positive/negative` for all the models and built a `Confusion Matrix` for the same.
 
 ## RESULTS
 1. Gender Distribution based on Income
-![Screenshot](https://github.com/adiag321/Adult-Census-Income-Prediction/blob/5f90b9521f49bd0e50a09560577c37d172b218a1/Images/gender.png)
+
+![gender](https://user-images.githubusercontent.com/39597515/209453637-16edd869-0883-46b5-be5f-9deb5ef920bf.png)
 
 2. Education Count 
-![Screenshot](https://github.com/adiag321/Adult-Census-Income-Prediction/blob/main/Images/Education_Count.png)
 
-3. Work-Class Distribution
-![Screenshot](https://github.com/adiag321/Adult-Census-Income-Prediction/blob/main/Images/Work-Class-Pie-chart.png)
+![Education_Count](https://user-images.githubusercontent.com/39597515/209453649-4297145c-b7d1-4b9d-b14f-7699ded9b131.png)
 
-4. Age Vs Marital Status
-![Screenshot](https://github.com/adiag321/Adult-Census-Income-Prediction/blob/main/Images/AgeVsMarital_Status.png)
+3. Age Vs Marital Status
 
+![AgeVsMarital_Status](https://user-images.githubusercontent.com/39597515/209453655-7032160b-1d9d-4f6d-8137-a6a893ef4295.png)
 
 ## MODEL EVALUTATION
-
 Here is the tabular view of `Accuracy` and `Time taken` to run the model - 
 
 | Model  | Accuracy | Time |
@@ -75,8 +72,8 @@ Here is the tabular view of `Accuracy` and `Time taken` to run the model -
 
 ## CONCLUSION
 
-* Only a few of the traits are closely associated to income projection, according to the correlation table. <br>
-* The choice of such columns has a big impact on the model's accuracy. Random Forest is also the best fit for this dataset. Males have a higher rate of incorrect predictions than females. <br>
-* The dataset does not have to be perfect or small all of the time. As a result, we must define a method, a method that can be applied to every dataset. <br>
-* Here is a step-by-step explanation of the workflow, which you may apply to your own dataset. <br>
-* Also, different types of visualizations effectively portray data based on a combination of attribute types (numerical, categorical) and a classification technique that is totally reliant on the dataset.
+1. Only a few of the traits are closely associated to income projection, according to the correlation table. <br>
+2. The choice of such columns has a big impact on the model's accuracy. Random Forest is also the best fit for this dataset. Males have a higher rate of incorrect predictions than females. <br>
+3. The dataset does not have to be perfect or small all of the time. As a result, we must define a method, a method that can be applied to every dataset. <br>
+4. Here is a step-by-step explanation of the workflow, which you may apply to your own dataset. <br>
+5. Also, different types of visualizations effectively portray data based on a combination of attribute types (numerical, categorical) and a classification technique that is totally reliant on the dataset.
